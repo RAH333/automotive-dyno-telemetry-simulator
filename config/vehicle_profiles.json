@@ -1,0 +1,19 @@
+{
+  "ice_suv": {
+    "type": "ICE",
+    "engine_displacement_cc": 2184,
+    "max_power_bhp": 182,
+    "max_torque_nm": 420,
+    "idle_rpm": 800,
+    "max_rpm": 4500,
+    "base_co2_g_km": 172
+  },
+  "ev_suv": {
+    "type": "EV",
+    "battery_capacity_kwh": 79.2,
+    "max_power_kw": 210,
+    "max_torque_nm": 380,
+    "max_motor_rpm": 12000,
+    "base_efficiency_wh_km": 158
+  }
+}
