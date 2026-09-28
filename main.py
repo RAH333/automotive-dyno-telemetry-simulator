@@ -1,7 +1,8 @@
 import time
 from src.diagnostic_server import VehicleInterfaceSystem
 from src.powertrain_models import ICEPowertrain, EVPowertrain
-from src.data_acquisition.import DiagnosticDataAcquisition
+from src.data_acquisition import DiagnosticDataAcquisition
+# from src.data_acquisition.import DiagnosticDataAcquisition
 
 def run_dyno_test_cycle(vehicle_type, vehicle_id):
     print(f"=== INITIALIZING CHASSIS DYNO TESTING FOR: {vehicle_id.upper()} ===")
